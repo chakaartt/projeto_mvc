@@ -1,0 +1,130 @@
+
+
+.bk-01 h1 {
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.escreva-box {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  max-width: 800px;
+  background: #fff;
+}
+
+.box-esquerdo {
+  padding: 50px;
+  background: #6425a3;
+  flex-basis: 50%;
+  flex-grow: 1;
+  color: #fff;
+
+}
+
+.box-direito{
+  padding: 50px;
+  flex-basis: 50%;
+  flex-grow: 1;
+}
+
+.input-box {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1 solid #fff;
+  outline: none;
+  color: #fff;
+  font-size:  12px;
+  background: transparent;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+input[type="checkbox"] {
+  margin-top: 30px;
+}
+
+.box-esquerdo label {
+  font-size: 14px;
+}
+
+.box-esquerdo button {
+  width: 100%;
+  background: #fff;
+  padding: 10px;
+  border: 0;
+  outline: none;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.box-esquerdo button:hover {
+  font-weight: 500;
+  background: #000;
+  color: #fff;
+}
+/* animação do button */
+.box-esquerdo span {
+  display: inline-block;
+  width: 0px;
+  overflow: hidden;
+  transition: width 0.5s;
+}
+
+.box-esquerdo:hover span {
+  width: 30px;
+}
+
+.box-direito a {
+  display: block;
+  width: 100%;
+  margin: 20px 0;
+  min-width: 250px;
+  color: #fff;
+  font-size: 14px;
+  padding: 15px 30px;
+  text-decoration: none;
+
+}
+
+.box-direito a i {
+  font-size: 18px;
+  margin-right: 10px;
+
+}
+
+.fb-link {
+  background: #1778f2;
+ 
+}
+
+.gg-link {
+  background: #ea4335;
+
+}
+
+.tw-link {
+  background: #1da1f2;
+}
+
+.login-msg {
+  color: #fff;
+  margin-top: 30px;
+  font-size: 15px;
+}
+
+.login-msg a {
+  color: #ea4335;
+  text-decoration: none;
+}
